@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy | OMP Personal Gmail</title>
+<style>body{font:18px/1.65 system-ui,sans-serif;max-width:760px;margin:3rem auto;padding:0 1.25rem;color:#202124;background:#fff}h1,h2{line-height:1.2}a{color:#1558b0}footer{margin-top:3rem;font-size:.9rem;color:#555}</style>
+</head>
+<body>
+<main>
+<p><a href="./">OMP Personal Gmail</a></p>
+<h1>Privacy policy</h1>
+<p>Effective 26 October 2026.</p>
+<p>OMP Personal Gmail is a personal desktop integration operated by its account owner. It connects the owner's Gmail account to the Google Workspace CLI and OMP assistant. It is not a public mailbox-hosting service.</p>
+<h2>Data accessed and purpose</h2>
+<p>After the owner grants Google OAuth permission, the integration can access Gmail message and thread content, sender and recipient information, subjects, dates, labels, drafts and attachments relevant to a request. It uses this data to find and summarise requested mail, extract details into local notes, prepare replies, and perform mail actions explicitly requested by the owner.</p>
+<p>The <code>gmail.modify</code> permission technically allows reading, composing, sending and modifying email. The assistant's operating rules require explicit approval before sending, and an explicit request before changing mailbox state. These rules do not technically remove the underlying OAuth capabilities. There is no scheduled background mailbox monitoring configured.</p>
+<h2>AI processing and sharing</h2>
+<p>Email excerpts and task context may be transmitted to the AI providers selected in OMP to deliver the requested assistant feature. The current setup primarily uses OpenAI's Codex subscription connection and permits an xAI/Grok fallback. The owner may select other providers. Provider privacy policies, retention rules and account data controls also apply; the owner should review them before processing sensitive mail.</p>
+<p>Data is used for the owner's requested email and note-taking features, not sold, used for advertising or collected into a training dataset by this integration. The integration does not use Google user data to develop, improve or train general-purpose AI or machine-learning models. Google user data must only be transferred to processors under terms consistent with these restrictions.</p>
+<p>OMP Personal Gmail's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+<h2>Storage and security</h2>
+<p>OAuth client configuration is stored on the owner's computer with owner-only file permissions, outside project folders and the notes vault. The CLI is configured to use the operating-system keyring and encrypted local credential storage for the authorisation credentials. Credentials are not published to this website or its repository.</p>
+<p>Messages or derived information used in a task can remain in local OMP session history, user-requested notes, drafts and the owner's backups. These local records are not automatically deleted when Google access is revoked. Requests to Google and cloud AI providers use their HTTPS interfaces.</p>
+<h2>Retention, revocation and deletion</h2>
+<p>The owner controls local history, note and backup retention. They can disconnect the app through <a href="https://myaccount.google.com/connections">Google Account connections</a> and clear the CLI's saved authorisation. Revocation stops future authorised API access but does not delete existing Gmail messages, drafts, exported notes, local history or provider-side records. Those must be managed in their respective locations under the applicable retention policies.</p>
+<h2>This public information site</h2>
+<p>This site contains no private email content, OAuth tokens or mailbox connection. It does not include application analytics, tracking scripts or sign-in forms. GitHub Pages hosts the site and may process normal web-request information under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub privacy statement</a>. Public repository issues are public, so private email or credentials must not be posted there.</p>
+<h2>Changes and contact</h2>
+<p>Material changes to Google-data access, use or sharing will be disclosed before the changed processing begins, with renewed consent where required. The repository owner maintains this policy. For questions or deletion guidance, <a href="https://github.com/LyleSussman/omp-personal-gmail/issues">open a privacy issue</a> using only non-sensitive information.</p>
+</main>
+<footer><a href="./">Application home page</a></footer>
+</body>
+</html>
